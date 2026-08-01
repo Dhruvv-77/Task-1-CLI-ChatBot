@@ -33,7 +33,7 @@ def main():
 
     while True:
         try:
-            user_input = input("You: ").strip()
+            user_input = input("YOU: ").strip()
 
             if not user_input:
                 continue
@@ -50,7 +50,7 @@ def main():
                 continue
 
             # Send input to model
-            print("Bot: ", end="", flush=True)
+            print("BOT: ", end="", flush=True)
             response = chat.send_message(user_input)
             print(response.text)
             print()
