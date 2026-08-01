@@ -29,8 +29,10 @@ A lightweight command-line chatbot built in Python using the official Google Gen
 
    Code snippet
    GEMINI_API_KEY=your_gemini_api_key_here
+   GROQ_API_KEY=your_groq_api_key_here
 
-5. Run the chatbot:
+6. Run the chatbot:
 
    ```bash
-   python main.py
+   python gemini_bot.py
+   python groq_bot.py
